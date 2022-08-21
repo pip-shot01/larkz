@@ -1,0 +1,122 @@
+@media only screen and (min-width:767.98px) {
+    body {
+        /* background: red; */
+    }
+
+    .navbar-nav {
+        margin-top: -3px;
+        /* margin-bottom: 2rem; */
+    }
+
+    .navbar-nav li a {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .banner {
+        margin-top: 19rem;
+    }
+
+    .banner h2 {
+        font-size: 49px;
+        font-weight: 700;
+    }
+
+    .banner h5 {
+        font-size: small;
+        font-weight: 500;
+        font-family: Arial, sans-serif;
+        line-height: 1.9rem;
+    }
+
+    .banner lottie-player {
+        margin-top: -4rem;
+        margin-left: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .learn {
+        color: rgb(236, 227, 214);
+        background: orangered;
+        border-radius: .4rem;
+        font-family: serif;
+        font-weight: 700;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+    .started {
+        color: rgb(236, 227, 214);
+        border: .1rem solid orangered;
+        font-family: serif;
+        border-radius: .4rem;
+        font-weight: 700;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+    .feat-1 {
+        font-size: 35px;
+    }
+
+    .feat-2 {
+        font-size: 35px;
+    }
+
+    .contact-form {
+        border: none;
+        padding-top: 4rem;
+    }
+
+    .contacts {
+        margin-top: 5rem;
+    }
+
+    .contacts h1 {
+        color: rgb(236, 227, 214);
+        text-align: start;
+        font-family: sans;
+        font-size: 25px;
+        line-height: 2.7rem;
+    }
+
+    .footer li:hover {
+        color: orange;
+        cursor: pointer;
+    }
+
+    .right-footer {
+        font-size: 18px;
+        cursor: progress;
+    }
+
+}
+
+
+
+@media only screen and (min-width:991.98px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .d-flex button {
+        display: block;
+    }
+
+    .navbar-nav li a {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .central,
+    .mission,
+    .contacts,
+    .feats {
+        margin-top: 15rem;
+    }
+}

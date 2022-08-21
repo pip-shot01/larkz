@@ -1,0 +1,325 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-button:single-button {
+    background-color: orange;
+    height: 60px;
+    width: 16px;
+}
+::-webkit-scrollbar-thumb {
+    background: orangered;
+}
+::-webkit-scrollbar-track {
+    background:  rgb(20, 3, 94);
+}
+
+
+
+
+
+
+
+html,
+body {
+    background-color: rgb(20, 3, 94);
+    overflow-x: hidden;
+}
+
+
+/* header  header  */
+.navbar {
+    background-color: rgb(27, 20, 122);
+}
+
+.larkz {
+    color: orange;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.firmz {
+    color: antiquewhite;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.firmz:hover {
+    color: orange;
+}
+
+.larkz:hover {
+    color: antiquewhite;
+}
+
+.navbar-toggler {
+    color: white;
+
+}
+
+.navbar-toggler:focus {
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.navbar-nav li a:hover {
+    color: orange;
+}
+
+.d-flex {
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.d-flex input:focus {
+    box-shadow: none;
+    outline: red;
+    border: none;
+}
+
+.d-flex button {
+    border-radius: .5rem;
+    border: 2px solid orangered;
+    color: wheat;
+
+}
+
+.d-flex button:hover {
+    color: white;
+    background: orangered;
+}
+
+/* header  header done */
+
+/* banner  banner   bannner */
+.banner {
+    margin-top: 9rem;
+}
+
+.banner h2 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    color: orange;
+}
+
+.banner h5 {
+    color: rgb(236, 227, 214);
+    font-size: small;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    line-height: 1.9rem;
+}
+
+.banner lottie-player {
+    /* margin-left: auto; */
+  
+}
+
+.learn {
+    color: rgb(236, 227, 214);
+    background: orangered;
+    border-radius: .4rem;
+    font-family: serif;
+    font-weight: 700;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.started {
+    color: rgb(236, 227, 214);
+    border: .1rem solid orangered;
+    font-family: serif;
+    border-radius: .4rem;
+    font-weight: 700;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.started:hover {
+    color: rgb(236, 227, 214);
+    background: orangered;
+    border-radius: .4rem;
+    /* transition:0.5/ /s ease-in-out; */
+}
+
+/* banner  banner   bannner done*/
+
+/* features    features    features    features */
+.features {
+    margin-top: 5rem;
+}
+
+.feats {
+    margin-top: 7rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    word-spacing: .3rem;
+}
+
+.feat-1 {
+    color: orange;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feat-2 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feat_1 {
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: max-content;
+    color: rgb(236, 227, 214);
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    /* background-color: white; */
+}
+
+.feat_1 h5 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'arial';
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+.feat_1 h6 {
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* features    features    features    features done */
+
+/* contacts    contacts      contacts      contacts  */
+.contacts h3 {
+    background-color: orangered;
+    width: max-content;
+    font-size: 13px;
+    color: white;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    border-radius: .4rem;
+    padding: .3rem;
+    margin-top: 9rem;
+    text-align: start;
+}
+
+.contacts h1 {
+    color: rgb(236, 227, 214);
+    text-align: start;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+
+.contact-form label {
+    color: whitesmoke;
+}
+
+.contact-form input:focus {
+    background-color: orange;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-form {
+    border: 1px solid orangered;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+/* contacts    contacts      contacts      contacts done */
+
+/* mmission    mmission      mmission      mmission  */
+.mission {
+    color: whitesmoke;
+    margin-top: 10rem;
+}
+
+.miss {
+    text-align: start;
+    margin-bottom: 10rem;
+}
+
+.miss h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.miss p {
+    font-size: small;
+    /* text-align: center; */
+}
+
+/* mmission    mmission      mmission      mmission done */
+
+/* footer    footer      footer      footer */
+.right-footer {
+    color: antiquewhite;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.footer {
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.footer h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.central {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li {
+    list-style-type: circle;
+}
+
+.developer span {
+    cursor: pointer;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.developer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+/* footer    footer      footer      footer done */
