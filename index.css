@@ -15,9 +15,9 @@
 
 html,
 body {
-    /* background-color: rgb(20, 3, 94); */
+    background-color: rgb(20, 3, 94);
     overflow-x: hidden;
-    background-color: red;
+    /* background-color: red; */
 }
 
 
@@ -31,7 +31,7 @@ body {
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .firmz {
@@ -39,7 +39,7 @@ body {
     font-size: 25px;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
 
 }
 
@@ -133,7 +133,7 @@ body {
   
 }
 
-.learn {
+.learn{
     color: rgb(236, 227, 214);
     background: orangered;
     border-radius: .4rem;
@@ -151,8 +151,7 @@ body {
     font-weight: 700;
     padding: .5rem;
     cursor: pointer;
-    overflow-wrap: normal;
-    display: none;
+    display: inline-flex;
 }
 
 .started:hover {
