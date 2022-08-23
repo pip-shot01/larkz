@@ -1,3 +1,9 @@
+@media only screen and (min-width:470px) {
+    .started{
+        display: inline;
+    }
+}
+
 @media only screen and (min-width:767.98px) {
     body {
         /* background: red; */
@@ -57,8 +63,7 @@
         font-weight: 700;
         padding: .5rem;
         cursor: pointer;
-        display: block;
-
+        display: inline;
     }
 
     .feat-1 {
