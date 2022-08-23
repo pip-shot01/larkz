@@ -151,7 +151,7 @@ body {
     font-weight: 700;
     padding: .5rem;
     cursor: pointer;
-    display: inline-flex;
+    display: none;
 }
 
 .started:hover {
