@@ -151,6 +151,7 @@ body {
     padding: .5rem;
     cursor: pointer;
     overflow-wrap: normal;
+    display: none;
 }
 
 .started:hover {
