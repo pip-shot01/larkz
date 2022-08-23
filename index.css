@@ -307,7 +307,7 @@ body {
 }
 
 .footer ul li {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .developer span {
